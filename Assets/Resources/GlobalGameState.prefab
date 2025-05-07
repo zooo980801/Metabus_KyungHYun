@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3644402493914052464
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2349649130272746700}
+  - component: {fileID: 8263337912094056414}
+  m_Layer: 0
+  m_Name: GlobalGameState
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2349649130272746700
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3644402493914052464}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 497.41602, y: 353.7075, z: -2.5938838}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8263337912094056414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3644402493914052464}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8899a9b9d49e5bc4cbfc4cfa68e38f6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  savedPlayerPosition: {x: 0, y: 0, z: 0}
+  returnToSelection: 0
+  lastPlayedSceneName: 
+  targetResolution: {x: 1280, y: 720}
+  flappyScore: 0
+  lastFlappyScore: 0
+  flappyBestScore: 0
+  theStackScore: 0
+  theStackMaxCombo: 0
+  theStackBestScore: 0
+  theStackBestCombo: 0
+  topDowncurrentWave: 0
+  topDownBestWave: 0
